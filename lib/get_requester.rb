@@ -4,7 +4,11 @@ require 'json'
  
 class GetRequester
   
-  URL = "#{url}"
+  attr_accessor :url
+  
+  def initialize(url)
+    url
+  end
   
   def get_response_body(url)
     

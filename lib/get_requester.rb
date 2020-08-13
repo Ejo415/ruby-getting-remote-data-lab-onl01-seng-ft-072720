@@ -4,7 +4,7 @@ require 'json'
  
 class GetRequester
   
-  URL = url
+  URL = "#{url}"
   
   def get_response_body(url)
     
